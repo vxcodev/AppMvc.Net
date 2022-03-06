@@ -1,0 +1,18 @@
+@using App.Models;
+@model ProductModel;
+<Section class="bg-danger">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card text-dark">
+                    <h1 class="card-header">@Model.Name</h1>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Giá: <b>@Model.Price</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</Section>

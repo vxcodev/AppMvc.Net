@@ -1,0 +1,26 @@
+@model string;
+@{
+    Layout = "_Layout";
+}
+<section class="bg-danger">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Xin chào @Model</h1>
+                <p>
+                    Bạn đang tìm hiểu về View trong ASP.Net MVC
+                </p>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-success">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>@this.Path</p>
+            </div>
+        </div>
+    </div>
+</section>
